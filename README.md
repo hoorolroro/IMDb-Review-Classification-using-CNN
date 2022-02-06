@@ -17,7 +17,7 @@
 ## 
 <img src="https://user-images.githubusercontent.com/98728682/152665929-12dbd78f-41ce-40ea-84f0-4581dac0116d.png" width="780" height="500">
 ● 벡터 형태로 들어간 숫자들은 Conv1d filte를 거친 뒤 들어간 뒤, 다시 pooling 과정을 거친다.  
-
+  
 
 ● pooling된 features들은 fully connected 과정을 거치고 positive, negative의 output을 도출해낸다.  
 
