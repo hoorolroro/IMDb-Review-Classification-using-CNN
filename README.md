@@ -20,7 +20,7 @@
 <img src="https://user-images.githubusercontent.com/98728682/152665609-056db791-04b9-4ece-ae3b-b0ffa77a7986.jpeg" width="620" height="350">
 ## Model overview
 
-<img src="https://user-images.githubusercontent.com/98728682/152664492-f38c6ac5-5475-414a-82c8-d028aca03de3.png" width="620" height="350">
+<img src="https://user-images.githubusercontent.com/98728682/152665668-d080fd86-513b-49f5-a86d-ce360f44d8be.png" width="620" height="350">
 
 ## 프로그램 구현
 
