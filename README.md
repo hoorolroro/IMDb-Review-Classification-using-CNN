@@ -19,4 +19,4 @@
 ● pooling된 features들은 fully connected 과정을 거치고 positive, negative의 output을 도출해낸다.  
 ## Model overview
 
-<img src="https://user-images.githubusercontent.com/98728682/152664492-f38c6ac5-5475-414a-82c8-d028aca03de3.png" width="350" height="250">
+<img src="https://user-images.githubusercontent.com/98728682/152664492-f38c6ac5-5475-414a-82c8-d028aca03de3.png" width="400" height="300">
