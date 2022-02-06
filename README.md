@@ -14,7 +14,7 @@
 ● 텍스트는 Conv1d filter를 사용한다.
 
 <img src="https://user-images.githubusercontent.com/98728682/152477169-f3fd931d-56d3-4c20-9cc0-3bce43e0e688.png" width="320" height="250"><img src="https://user-images.githubusercontent.com/98728682/152477142-625fd2f2-20c8-4dae-8ff6-852915f0aed1.png" width="300" height="220">  
-
+## 
 ● 벡터 형태로 들어간 숫자들은 Conv1d filte를 거친 뒤 들어간 뒤, 다시 pooling 과정을 거친다.  
 ● pooling된 features들은 fully connected 과정을 거치고 positive, negative의 output을 도출해낸다.  
 <img src="https://user-images.githubusercontent.com/98728682/152665668-d080fd86-513b-49f5-a86d-ce360f44d8be.png" width="780" height="500">
