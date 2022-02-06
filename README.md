@@ -20,3 +20,9 @@
 ## Model overview
 
 <img src="https://user-images.githubusercontent.com/98728682/152664492-f38c6ac5-5475-414a-82c8-d028aca03de3.png" width="620" height="350">
+
+## 프로그램 구현
+
+● 선별된 IMdB 데이터 셋과 실제 IMdB 데이터 셋 두 가지를 학습하고 평가한다.  
+● Embedding 차원은 300, filter size 3, 4, 5로 Number of filter는 각각 100개로 학습을 진행하였다.  
+● 학습된 모델로 실제 IMDb 데이터를 평가해본 결과 정확도가 81.33%가 나왔다.
