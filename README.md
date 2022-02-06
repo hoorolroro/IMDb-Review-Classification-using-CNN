@@ -13,5 +13,8 @@
 ● 1은 width에 해당하며 값이 1이기 때문에 width 방향의 dimension은 무시한다.  
 ● 텍스트는 Conv1d filter를 사용한다.
 
-<img src="https://user-images.githubusercontent.com/98728682/152477169-f3fd931d-56d3-4c20-9cc0-3bce43e0e688.png" width="320" height="250"><img src="https://user-images.githubusercontent.com/98728682/152477142-625fd2f2-20c8-4dae-8ff6-852915f0aed1.png" width="300" height="220">
+<img src="https://user-images.githubusercontent.com/98728682/152477169-f3fd931d-56d3-4c20-9cc0-3bce43e0e688.png" width="320" height="250"><img src="https://user-images.githubusercontent.com/98728682/152477142-625fd2f2-20c8-4dae-8ff6-852915f0aed1.png" width="300" height="220">  
+
+● filter로 들어간 숫자 형태의 단어는 다시 pooling 과정을 거친다.  
+● pooling된 features들은 fully connected 과정을 거치고 positive, negative의 output을 도출해낸다.  
 
