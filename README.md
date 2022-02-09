@@ -4,7 +4,7 @@
 ● [Kim et al., 2014]에 의하면, CNN이 text 처리에서도 잘 작동하는 것을 보여준다.  
 
  
-<img src="https://user-images.githubusercontent.com/98728682/153190257-3db05742-52ba-4b8e-a629-d1dacdb4a220.jpeg" width="640" height="250">
+<img src="https://user-images.githubusercontent.com/98728682/153190257-3db05742-52ba-4b8e-a629-d1dacdb4a220.jpeg" width="650" height="250">
 
 ## 텍스트와 Conv1d
 ● 텍스트는 단어 단위로 상 -> 하의 방향으로 재 정렬 되어 네트워크에 들어간다고 이미지를 그린다.  
