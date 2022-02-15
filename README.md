@@ -37,7 +37,7 @@
 
 ● 학습에서 가장 높게 나온 정확도는 88.9%로 나타났다.  
 
-## 
+## Hyper-parameter
 |num_epochs|batch_sizee|num_classes|max_length|vocab_size|embedding_dim|filter_sizes|filter_counts|dropout_rate|learning_rate|evaluate_per_steps|accuracy| 
 |---|---|---|---|---|---|---|---|---|---|---|---|  
 |10|50|2|256|50000|300|(3,4,5)|(100, 100, 100)|0.0|0.001|100|87.5%|  
