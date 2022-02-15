@@ -25,15 +25,6 @@
 
 <img src="https://user-images.githubusercontent.com/98728682/152665707-86c54d4b-49b3-4877-a4c7-be1f5501e366.png" width="620" height="350">  
 
-## Hyyper-parameter  
-
-|num_epochs|batch_sizee|num_classes|max_length|vocab_size|embedding_dim|filter_sizes|filter_counts|dropout_rate|learning_rate|evaluate_per_steps|accuracy| 
-|---|---|---|---|---|---|---|---|---|---|---|---|  
-|10|50|2|256|50000|300|(3,4,5)|(100, 100, 100)|0.0|0.001|100|87.5%|  
-|10|50|2|256|50000|300|(3,5,7)|(500, 300, 50)|0.0|0.0005|100|87.8%|
-|10|50|2|256|50000|300|(3,5,7)|(500, 300, 50)|0.0|0.001|100|88.9%|  
-  
-
 ## 평가
 
 ● 평가는 선별된 IMdB 데이터셋을 이용하여 CNN 모델에 아래의 파라미터를 대입하여 진행한다.  
@@ -44,4 +35,12 @@
 
 ● 학습에서 learning rate를 0.001에서 가장 좋은 정확도를 나타냈다.  
 
-● 학습에서 가장 높게 나온 정확도는 88.9%로 나타났다.
+● 학습에서 가장 높게 나온 정확도는 88.9%로 나타났다.  
+
+## Hyyper-parameter  
+
+|num_epochs|batch_sizee|num_classes|max_length|vocab_size|embedding_dim|filter_sizes|filter_counts|dropout_rate|learning_rate|evaluate_per_steps|accuracy| 
+|---|---|---|---|---|---|---|---|---|---|---|---|  
+|10|50|2|256|50000|300|(3,4,5)|(100, 100, 100)|0.0|0.001|100|87.5%|  
+|10|50|2|256|50000|300|(3,5,7)|(500, 300, 50)|0.0|0.0005|100|87.8%|
+|10|50|2|256|50000|300|(3,5,7)|(500, 300, 50)|0.0|0.001|100|88.9%| 
