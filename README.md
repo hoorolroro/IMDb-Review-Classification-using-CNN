@@ -23,7 +23,15 @@
 
 ## Model overview
 
-<img src="https://user-images.githubusercontent.com/98728682/152665707-86c54d4b-49b3-4877-a4c7-be1f5501e366.png" width="620" height="350">
+<img src="https://user-images.githubusercontent.com/98728682/152665707-86c54d4b-49b3-4877-a4c7-be1f5501e366.png" width="620" height="350">  
+
+## Hyyper-parameter  
+
+|num_epochs|batch_sizee|num_classes|max_length|vocab_size|embedding_dim|filter_sizes|filter_counts|dropout_rate|learning_rate|evaluate_per_steps|accuracy| 
+|---|---|---|---|---|---|---|---|---|---|---|---|  
+|10|50|2|256|50000|300|(3,4,5)|(100, 100, 100)|0.0|0.001|100|87.5%|  
+|10|50|2|256|50000|300|(3,5,7)|(500, 300, 50)|0.0|0.0005|100|87.8%|
+|10|50|2|256|50000|300|(3,5,7)|(500, 300, 50)|0.0|0.001|100|88.9%|  
 
 ## 프로그램 구현
 
